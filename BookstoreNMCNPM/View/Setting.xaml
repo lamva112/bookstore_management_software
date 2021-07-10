@@ -1,0 +1,228 @@
+﻿<UserControl x:Class="BookstoreNMCNPM.View.Setting"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BookstoreNMCNPM.View"
+             mc:Ignorable="d" 
+             Loaded="ThamSo_Load"
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock x:Name="txtThamSo"
+                       Text="Thay đổi quy định"
+                       FontSize="25"
+                       Foreground="Black"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+            </TextBlock>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="0*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="SLTonToiThieu"
+                               Text="Số lượng tồn tối thiểu"
+                               FontSize="20"
+                               Foreground="Black"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center" />
+                </Grid>
+                <Grid Grid.Column="1">
+                    <TextBlock x:Name="SLNhapToiThieu"
+                               Text="Số lượng nhập tối thiểu"
+                               FontSize="20"
+                               Foreground="Black"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <TextBlock x:Name="MatKhauAdmin"
+                               Text="Mật khẩu Admin"
+                               FontSize="20"
+                               Foreground="Black"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" >
+                    <TextBox x:Name="tbSLTonToiThieu"
+                             Height="60"
+                             Width="100"
+                             Text="00"
+                             FontSize="25"
+                             Foreground="Black"
+                             TextAlignment="Center"
+                             HorizontalAlignment="Center"
+                             VerticalAlignment="Center"
+                             BorderBrush="Black"
+                             PreviewTextInput="NumberValidationTextBox"/>
+                </Grid>
+                <Grid Grid.Column="1" >
+                    <TextBox x:Name="tbSLNhapToiThieu"
+                             Height="60"
+                             Width="100"
+                             Text="00"
+                             FontSize="25"
+                             Foreground="Black"
+                             TextAlignment="Center"
+                             HorizontalAlignment="Center"
+                             VerticalAlignment="Center"
+                             BorderBrush="Black"
+                             PreviewTextInput="NumberValidationTextBox"/>
+                </Grid>
+                <Grid Grid.Column="2" >
+                    <TextBox x:Name="tbMatKhauAdmin"
+                             Height="60"
+                             Width="100"
+                             Text="00"
+                             FontSize="25"
+                             Foreground="Black"
+                             TextAlignment="Center"
+                             HorizontalAlignment="Center"
+                             VerticalAlignment="Center"
+                             BorderBrush="Black"
+                            />
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <TextBlock x:Name="SLTonToiDa"
+                               Text="Số lượng tồn tối đa"
+                               FontSize="20"
+                               Foreground="Black"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <TextBlock x:Name="SoTienNoToiDa"
+                               Text="Số tiền nợ tối đa"
+                               FontSize="20"
+                               Foreground="Black"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <TextBlock x:Name="MatKhauNV"
+                               Text="Mật khẩu nhân viên"
+                               FontSize="20"
+                               Foreground="Black"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" >
+                    <TextBox x:Name="tbSLTonToiDa"
+                             Height="60"
+                             Width="100"
+                             Text="00"
+                             FontSize="25"
+                            Foreground="Black"
+                             TextAlignment="Center"
+                             HorizontalAlignment="Center"
+                             VerticalAlignment="Center"
+                             BorderBrush="Black"
+                             PreviewTextInput="NumberValidationTextBox"/>
+                </Grid>
+                <Grid Grid.Column="1" >
+                    <TextBox x:Name="tbSoTienNoToiDa"
+                             Height="60"
+                             Width="100"
+                             Text="00"
+                             FontSize="25"
+                             Foreground="Black"
+                             TextAlignment="Center"
+                             HorizontalAlignment="Center"
+                             VerticalAlignment="Center"
+                             BorderBrush="Black"
+                             PreviewTextInput="NumberValidationTextBox"/>
+                </Grid>
+                <Grid Grid.Column="2" >
+                    <TextBox x:Name="tbMatKhauNV"
+                             Height="60"
+                             Width="100"
+                             Text="00"
+                             FontSize="25"
+                             Foreground="Black"
+                             TextAlignment="Center"
+                             HorizontalAlignment="Center"
+                             VerticalAlignment="Center"
+                             BorderBrush="Black"
+                             />
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="600"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Button x:Name="btChinhSua"
+                        Content="Chỉnh sửa"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Foreground="White"
+                        Background="#3D7CF4"
+                        BorderBrush="{x:Null}"
+                        Click="btnEdit_Click"/>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Button x:Name="btLuu"
+                        Content="Lưu"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Foreground="White"
+                        Background="#3D7CF4"
+                        BorderBrush="{x:Null}"
+                        Click="btnSave_Click"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

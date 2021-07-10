@@ -1,0 +1,132 @@
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.csprojAssemblyReference.cache
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\MainWindow.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Books.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\App.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM_Content.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM_MarkupCompile.cache
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM_MarkupCompile.lref
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\BookstoreNMCNPM.exe.config
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\BookstoreNMCNPM.exe
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\BookstoreNMCNPM.pdb
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\EntityFramework.dll
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignColors.dll
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\EntityFramework.xml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignColors.pdb
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\App.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\MainWindow.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Books.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.g.resources
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.Properties.Resources.resources
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.csproj.GenerateResource.cache
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.csproj.CoreCompileInputs.cache
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.csproj.CopyComplete
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.exe
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.pdb
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\BookInfo.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\BookInfo.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\view.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ViewSwitcher.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\view.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ViewSwitcher.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Home1.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Home1.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ImportBook.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ImportBook.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlBook.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ViewSwitcher1.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlBook.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ViewSwitcher1.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SellBook.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SellBook.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Customers.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Customers.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlCustomer.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlCustomer.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Setting.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Setting.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Report.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Report.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Cash.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\HomeMenu.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Cash.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\HomeMenu.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlSearch.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SearchBook.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SearchCustomer.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlSearch.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SearchBook.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SearchCustomer.baml
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Login.g.cs
+C:\Users\long\Desktop\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Login.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\BookstoreNMCNPM.exe.config
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\BookstoreNMCNPM.exe
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\BookstoreNMCNPM.pdb
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\EntityFramework.dll
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\EntityFramework.SqlServer.dll
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignColors.dll
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\EntityFramework.xml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\EntityFramework.SqlServer.xml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignColors.pdb
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.csprojAssemblyReference.cache
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\MainWindow.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\BookInfo.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Books.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Cash.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlBook.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlCustomer.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlSearch.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Customers.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Home1.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\HomeMenu.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ImportBook.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Login.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Report.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SearchBook.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SearchCustomer.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SellBook.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Setting.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\view.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ViewSwitcher.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ViewSwitcher1.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\App.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM_Content.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM_MarkupCompile.cache
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM_MarkupCompile.lref
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\App.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\MainWindow.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\BookInfo.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Books.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Cash.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlBook.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlCustomer.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ControlSearch.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Customers.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Home1.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\HomeMenu.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ImportBook.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Login.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Report.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SearchBook.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SearchCustomer.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\SellBook.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\Setting.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\view.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ViewSwitcher.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\View\ViewSwitcher1.baml
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.g.resources
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.Properties.Resources.resources
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.csproj.GenerateResource.cache
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.csproj.CoreCompileInputs.cache
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.csproj.CopyComplete
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.exe
+C:\cnpm\BookstoreNMCNPM (3)\BookstoreNMCNPM\BookstoreNMCNPM\obj\Debug\BookstoreNMCNPM.pdb

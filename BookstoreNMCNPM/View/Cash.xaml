@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="BookstoreNMCNPM.View.Cash"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BookstoreNMCNPM.View"
+             mc:Ignorable="d" 
+             Loaded="Cash_Loaded"    
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <ComboBox x:Name="cbKhachHang" 
+                      IsEditable="False" 
+                      Margin="10 0 10 0"
+                      Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                      materialDesign:HintAssist.Hint="Chọn Khách Hàng"
+                      ItemsSource="{Binding}"
+                      IsReadOnly="True"
+                      IsEnabled="False"/>
+            <TextBox x:Name="tbTienNo" Grid.Row="0" Grid.Column="1" 
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="10 0 10 0"
+                     materialDesign:HintAssist.Hint="Tiền nợ" IsEnabled="False"
+                     Text="{Binding SelectedItem.SoTienNo, ElementName=cbKhachHang}" VerticalContentAlignment="Stretch" VerticalAlignment="Center"/>
+
+            <TextBox x:Name="tbTienThu" Grid.Row="1" Grid.Column="0" 
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="10 0 10 0"
+                     materialDesign:HintAssist.Hint="Nhập số tiền thu"
+                     VerticalContentAlignment="Stretch" VerticalAlignment="Center" IsEnabled="False"
+                     PreviewTextInput="NumberValidationTextBox"/>
+
+
+            <TextBox x:Name="tbMaPT" Grid.Row="1" Grid.Column="1" 
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="10,0,10,0"
+                     materialDesign:HintAssist.Hint="Mã phiếu thu"
+                     VerticalContentAlignment="Stretch" VerticalAlignment="Center" IsEnabled="False"/>
+            <TextBox x:Name="tbMaKH" Grid.Row="2" Grid.Column="0" 
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="10 0 10 0"
+                     materialDesign:HintAssist.Hint="Mã Khách hàng"
+                     Text="{Binding SelectedItem.MaKhachHang, ElementName=cbKhachHang}" VerticalContentAlignment="Stretch" VerticalAlignment="Center" IsEnabled="False"/>
+            <Button Grid.Row="2" Grid.Column="1" Content="Thêm phiếu thu" Name="btnAdd" HorizontalAlignment="Center" Click="btnAdd_Click" Margin="72,5.4,180,-0.4" Height="Auto" Width="148"/>
+            <Button Grid.Row="2" Grid.Column="1" Content="Lưu phiếu thu" Name="btnSave" HorizontalAlignment="Center" Click="btnSave_Click" Margin="225,5.4,38,-0.4" Height="Auto" Width="137" RenderTransformOrigin="0.887,0.827" IsEnabled="False"/>
+        </Grid>
+
+        <DataGrid x:Name="dataCash" Grid.Row="2" Margin="0,20,0,0" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding SoPT, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã phiếu thu"/>
+                <DataGridTextColumn Binding="{Binding KHACHHANG.MaKhachHang, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã khách hàng"/>
+                <DataGridTextColumn Binding="{Binding KHACHHANG.TenKhachHang, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Tên khách hàng"/>
+                <DataGridTextColumn Binding="{Binding NgayLap, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Ngày lập"/>
+                <DataGridTextColumn Binding="{Binding SoTienThu, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Số tiền thu"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

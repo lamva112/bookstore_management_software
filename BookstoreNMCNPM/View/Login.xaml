@@ -1,0 +1,146 @@
+﻿<Window x:Class="BookstoreNMCNPM.View.Login"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BookstoreNMCNPM.View"
+             mc:Ignorable="d" 
+             VerticalAlignment="Center"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"        
+        Height="1080" Width="1920"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        WindowStyle="None" MouseDown="Window_MouseDown"
+        
+        
+        >
+    <StackPanel>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="401*"/>
+                <ColumnDefinition Width="486*"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="40"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="6"
+             Margin="0.4,5,-0.4,4.6"
+             Background="Red"
+             Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+             ToolTip="MaterialDesignFloatingActionMiniLightButton"
+             Click="Close">
+                <materialDesign:PackIcon Kind="CloseBox" Width="25" Height="25" />
+
+            </Button>
+
+            <Button Grid.Column="4"
+             Margin="0,5,0,4.6"
+             Background="Green"
+             Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+             ToolTip="MaterialDesignFloatingActionMiniLightButton"
+             Click="Maxsize">
+                <materialDesign:PackIcon Kind="WindowMaximize" Width="25" Height="25"/>
+            </Button>
+
+            <Button Grid.Column="2"
+             Margin="0.4,5,10,4.6"
+             Background="Yellow"
+             Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+             ToolTip="MaterialDesignFloatingActionMiniLightButton" Grid.ColumnSpan="2"
+             Click="Minisize">
+                <materialDesign:PackIcon Kind="WindowMinimize" Width="25" Height="25"/>
+            </Button>
+        </Grid>
+
+        <TextBlock 
+            FontWeight="Bold"
+            FontSize="70"
+            Margin="100 80 0 0"
+            Text="WELLCOME TO 4-L BOOKSTORE"
+            Foreground="#1706D6" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="960"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Image Grid.Column="1"
+                   Margin="0 60 0 0"
+                   Source="/imagine/image Login.png"/>
+
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="Login"
+                 FontWeight="Bold"
+                 FontSize="70"
+                 Foreground="#1706D6"
+                 Margin="300 60 0 30"/>
+
+                <Border Margin="100 0 300 10"
+                    
+                        BorderThickness="3"
+                        CornerRadius="10"
+                        BorderBrush="#1706D6">
+
+                    <Grid>
+
+                        <TextBox 
+                            Name="tbUser"
+                            FontSize="20"
+                            FontWeight="Bold"
+                            Foreground="#1706D6" 
+                            materialDesign:HintAssist.Hint="User name" 
+                            Padding="20"
+                            KeyDown="TextBox_KeyUp"/>
+
+
+                    </Grid>
+
+                </Border>
+
+                <Border Margin="100 20 300 30"
+                    BorderThickness="3"
+                        CornerRadius="10"
+                        BorderBrush="#1706D6">
+                    <Grid>
+                        <PasswordBox
+                            Name="tbPass"
+                            FontSize="20"
+                            FontWeight="Bold"
+                            Foreground="#1706D6" 
+                            materialDesign:HintAssist.Hint="Password" 
+                            Padding="20"
+                            KeyDown="TextBox_KeyUp"/>
+                    </Grid>
+                </Border>
+
+                <Button 
+                    FontSize="30"
+                    Content="Accept"
+                    Margin="100 0 300 0"
+                    Width="150"
+                    Height="75"
+                    materialDesign:ButtonAssist.CornerRadius="40"
+                    Click="btnLogin_Click"/>
+
+            </StackPanel>
+
+
+
+
+        </Grid>
+
+
+    </StackPanel>
+</Window>

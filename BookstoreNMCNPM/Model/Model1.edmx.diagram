@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="23eaec87cf74421ca5eb7866b635cc46" Name="Diagram1">
+        <EntityTypeShape EntityType="QLNSModel.BAOCAOCONGNO" Width="1.5" PointX="6" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.BAOCAOTON" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.CT_HOADON" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.CT_PHIEUNHAPSACH" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.HOADON" Width="1.5" PointX="6" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.KHACHHANG" Width="1.5" PointX="3.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.NHAXUATBAN" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.PHIEUNHAPSACH" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.PHIEUTHUTIEN" Width="1.5" PointX="6" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.SACH" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.sysdiagram" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.THAMSO" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNSModel.THELOAI" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="QLNSModel.FK_BAOCAOCONGNO_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_BAOCAOTON_SACH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_CT_HOADON_HOADON" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_CT_HOADON_SACH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_CT_PHIEUNHAPSACH_PHIEUNHAPSACH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_CT_PHIEUNHAPSACH_SACH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_HOADON_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_PHIEUTHUTIEN_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_SACH_NhaXuatBan" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNSModel.FK_SACH_THELOAI" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
